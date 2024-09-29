@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pratamesh Bhat - Portfolio</title>
+    <title>Education - Pratamesh Bhat</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <style>
@@ -35,11 +35,11 @@
             flex: 1; /* Allow the main to take up available space */
             display: flex; /* Use flexbox for centering */
             justify-content: center; /* Center horizontally */
-            align-items: center; /* Center vertically */
+            align-items: flex-start; /* Align items to the start (top) */
             text-align: center; /* Center text */
             z-index: 2; /* Higher than particles */
             color: white; /* Change as needed for visibility */
-            padding-top: 10px; /* Adjust this value to move the content up/down */
+            padding-top: 20px; /* Adjust this value to move the content up/down */
         }
 
         footer {
@@ -48,6 +48,25 @@
 
         h1, h2, p {
             margin: 0; /* Remove default margins */
+        }
+
+        .highschool-logo {
+            max-width: 300px; /* Set a larger maximum width for high school logo */
+            margin: 10px; /* Space around images */
+        }
+
+        .community-college-logo {
+            max-width: 200px; /* Set a maximum width for community college logo */
+            margin: 10px; /* Space around images */
+        }
+
+        .logos {
+            margin-bottom: 20px; /* Space between images and text */
+        }
+
+        .education-details {
+            text-align: center; /* Center text for education details */
+            margin: 20px; /* Margin for education details */
         }
     </style>
 </head>
@@ -62,7 +81,6 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
-                <li><a href="education.html">Education</a></li>
                 <li><a href="leadership.html">Leadership</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="skills.html">Skills</a></li>
@@ -74,8 +92,21 @@
 
     <main>
         <div>
-            <h2>Welcome to My Portfolio</h2>
-            <p>I am Pratamesh Bhat, an aspiring neuroscientist and premed student</p>
+            <!-- Add images of your high school and community college -->
+            <div class="logos">
+                <img class="highschool-logo" src="image-removebg-preview (9).png" alt="Cypress Woods High School Logo">
+                <img class="community-college-logo" src="image-removebg-preview (8).png" alt="Community College Logo">
+            </div>
+            <h2>Education</h2>
+            <div class="education-details">
+                <p><strong>Cypress Woods High School</strong> (Class of 2025)</p>
+                <p>Class Rank: 4/784</p>
+                <p>SAT Score: 1500</p>
+                <p>GPA: 6.8889 (weighted 6.0 scale)</p>
+                <p>ACT Score: 34</p>
+                <p>Expected High School Graduation: 05/29/2025</p>
+                <p>Will graduate with an Associates of Science degree from Lone Star College through the College Academy program along with my high school diploma.</p>
+            </div>
         </div>
     </main>
 

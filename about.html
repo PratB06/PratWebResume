@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pratamesh Bhat - Portfolio</title>
+    <title>About Me - Pratamesh Bhat</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <style>
@@ -35,11 +35,11 @@
             flex: 1; /* Allow the main to take up available space */
             display: flex; /* Use flexbox for centering */
             justify-content: center; /* Center horizontally */
-            align-items: center; /* Center vertically */
+            align-items: flex-start; /* Align items to the start for upward movement */
             text-align: center; /* Center text */
             z-index: 2; /* Higher than particles */
             color: white; /* Change as needed for visibility */
-            padding-top: 10px; /* Adjust this value to move the content up/down */
+            padding-top: 0; /* Reduced padding to move content up */
         }
 
         footer {
@@ -48,6 +48,12 @@
 
         h1, h2, p {
             margin: 0; /* Remove default margins */
+        }
+
+        img {
+            max-width: 250px; /* Increased size of the image */
+            border-radius: 50%; /* Make the image circular */
+            margin-bottom: 20px; /* Space between the image and text */
         }
     </style>
 </head>
@@ -61,7 +67,6 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
                 <li><a href="education.html">Education</a></li>
                 <li><a href="leadership.html">Leadership</a></li>
                 <li><a href="projects.html">Projects</a></li>
@@ -74,8 +79,9 @@
 
     <main>
         <div>
-            <h2>Welcome to My Portfolio</h2>
-            <p>I am Pratamesh Bhat, an aspiring neuroscientist and premed student</p>
+            <img src="Meagain.webp" alt="Pratamesh Bhat"> <!-- Replace with your image path -->
+            <h2>About Me</h2>
+            <p>I am a dedicated student from Cypress, Texas who is proud to be the first in my family to attend college in the United States. I have a strong passion for both neuroscience and computer science, which led me to co-found a nonprofit organization called Neurogenesis, aimed at promoting neurological education and awareness. I have excelled in various science competitions and serve as the president of the SciWoods science club, Computer Science UIL and Outreach Club, and Social Studies UIL club, while also contributing to numerous clubs and volunteer initiatives. Balancing my academic pursuits with leadership roles, I am committed to making a positive impact in my community as I prepare for a future in medicine or neurocomputation.</p>
         </div>
     </main>
 

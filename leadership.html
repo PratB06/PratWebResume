@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leadership - Pratamesh Bhat</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        header, footer {
+            z-index: 2;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            z-index: 2;
+            color: white;
+        }
+
+        footer {
+            margin-top: auto;
+        }
+
+        h1, h2 {
+            margin: 0;
+        }
+
+        .leadership-section {
+            max-width: 800px;
+            text-align: center; /* Center align the text */
+            padding: 20px;
+        }
+
+        .activity {
+            margin-bottom: 20px;
+        }
+
+        .activity p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <header>
+        <h1>Pratamesh Bhat</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="particles.html">Particles</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Leadership Roles</h2>
+        <div class="leadership-section">
+            <div class="activity">
+                <p><strong>President, SciWoods Science Club</strong> - Lead and organize science competitions such as UIL and Science Olympiad and SNHS.</p>
+            </div>
+            <div class="activity">
+                <p><strong>Secretary, Computer Science UIL</strong> - Leading the weekly meetings and coding sessions.</p>
+            </div>
+            <div class="activity">
+                <p><strong>Co-Founder & Vice President, Neurogenesis</strong> - Promoting neurological education and awareness through events and initiatives.</p>
+            </div>
+            <div class="activity">
+                <p><strong>Secretary, Computer Science Outreach Program (CSOPS)</strong> - Teaching middle schoolers Java and preparing them for UIL competitions.</p>
+            </div>
+            <div class="activity">
+                <p><strong>Representative Coordinator, Key Club</strong> - Managing numerous representatives across all grades.</p>
+            </div>
+            <div class="activity">
+                <p><strong>President, Social Studies UIL</strong> - Leading the team in UIL competitions related to social studies.</p>
+            </div>
+            <div class="activity">
+                <p><strong>Reporter-Historian, Future Business Leaders of America (FBLA)</strong> - Organized events and documented club history.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>15719 Whisper Woods Dr. | 346-332-8558 | pbhat0603@gmail.com</p>
+    </footer>
+
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function() {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
+</body>
+</html>
